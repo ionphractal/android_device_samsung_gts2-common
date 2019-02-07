@@ -9,8 +9,8 @@ Subject: [PATCH] libdisplaymodule --> libexynosdisplaymodule
 
 diff --git a/hardware/samsung_slsi-cm/exynos/libhwc/Android.mk b/hardware/samsung_slsi-cm/exynoslibhwc/Android.mk
 index c5fd392..c24311a 100644
---- a/hardware/samsung_slsi-cm/exynoslibhwc/Android.mk
-+++ b/hardware/samsung_slsi-cm/exynoslibhwc/Android.mk
+--- a/hardware/samsung_slsi-cm/exynos/libhwc/Android.mk
++++ b/hardware/samsung_slsi-cm/exynos/libhwc/Android.mk
 @@ -21,7 +21,7 @@ LOCAL_MODULE_RELATIVE_PATH := hw
  LOCAL_SHARED_LIBRARIES := liblog libcutils libEGL libGLESv1_CM libhardware \
  	libhardware_legacy libion_exynos libutils libsync \
