@@ -25,5 +25,3 @@ type vfs_device, dev_type;
 type batch_io_device, dev_type;
 
 type fingerprint_data_file, file_type;
-
-type biometrics_data_file, file_type;
